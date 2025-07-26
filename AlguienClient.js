@@ -1,20 +1,5 @@
 import {v as m, C as ee, D as ut, G as R, H as rt, m as b, a as Xe, l as we, h as Q, u as x, p as pt, $ as u, P as _t, d as B, E as _e, b as se, c as zt, T as Z, S as ae, e as j, I as U, f as be, g as Te, M as ce, i as H, j as Vt, k as Ft, n as ss, o as Tt, R as as, q as os, r as bi, B as Gt, s as Bi, A as Se, t as ne, w as Yt, x as Ne, y as Mr, z as ci, F as ui, J as tt, K as ge, L as Di, N as qt, W as Ot, U as ls, O as Tr, Q as ns, V as ms, X as hs, Y as di, Z as Oe, _ as We, a0 as ki, a1 as Li, a2 as cs, a3 as us, a4 as ds, a5 as ps, a6 as fs} from "./BUp_rKh-.js";
-class fs {
-    protocol = 0;
-    matchPriv = "";
-    loadoutPriv = "";
-    questPriv = "";
-    name = "";
-    useTouch = !1;
-    isMobile = !1;
-    bot = !1;
-    loadout = {
-        outfit: "",
-        melee: "",
-        heal: "",
-        boost: "",
-        emotes: []
-    };
+
     deserialize(e) {
         this.protocol = e.readUint32(),
         this.matchPriv = e.readString(),
